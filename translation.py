@@ -1,9 +1,7 @@
 from config import Config
 
 class Translation(object):
-      START = str(Config.START) + "Hello,
-
-I Am The Manager Of @VKPROJECTS.You Can Sent FeedBack Through Me."
+      START = str(Config.START) + "\n\nI Am The Manager Of @VKPROJECTS.You Can Sent FeedBack Through Me."
 
       RULES = Config.RULES
 
